@@ -11,6 +11,7 @@ import wikipedia.pages.*;
 
 import static io.qameta.allure.Allure.step;
 
+@DisplayName("Тестирование приложения Википедия удаленно, используя Browserstack")
 public class RemoteTests extends TestBase {
     MainPage mainPage = new MainPage();
     SearchPage searchPage = new SearchPage();
